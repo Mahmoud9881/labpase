@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="STYLE.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand  MM"  href="#">THE GREEN MARKET</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="THE GREEN MARKET.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contact.html">CONTACT</a>
+          </li>
+          
+          
+       
+       
+        <a class="navbar-brand  MM" href="#">THE GREEN MARKET</a>
+        <!-- Add the cart icon image and adjust the file path as needed -->
+        <a class="navbar-brand" href="cart.html"><img src="shopping-cart.png" width="20px" height="20px" alt="Cart Icon"></a>
+      </div>
+    </div>
+   
+  </nav>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <style>
+      /* Styles for the form */
+      form {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      
+      label {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        transition: background-color 0.5s ease;
+      }
+      
+      input[type="text"]:focus,
+      input[type="email"]:focus,
+      textarea:focus {
+        background-color: #e6ffe6;
+      }
+      
+      input[type="text"]::placeholder,
+      input[type="email"]::placeholder,
+      textarea::placeholder {
+        font-style: italic;
+        opacity: 0.5;
+      }
+      
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+      
+      /* Styles for the contact information section */
+      .contact-info {
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 50px;
+      }
+      
+      .contact-info h3 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      
+      .contact-info p {
+        font-size: 16px;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .contact-info p img {
+        height: 20px;
+        margin-right: 10px;
+      }
+      
+      .contact-info .address,
+      .contact-info .phone,
+      .contact-info .email,
+      .contact-info .social {
+        flex-basis: 45%;
+        margin-bottom: 20px;
+      }
+      
+      .contact-info .social img {
+        height: 30px;
+        margin-right: 5px;
+      }
+      
+      /* Styles for the contact container */
+      .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .contact-form {
+        flex-basis: 60%;
+        margin-right: 20px;
+      }
+      
+      .contact-info-container {
+        flex-basis: 35%;
+      }
+      
+      @media only screen and (max-width: 600px) {
+        .contact-form,
+        .contact-info-container {
+          flex-basis: 100%;
+          margin-right: 0;
+        }
+      }
+    </style>
+  </head<body>
+  <div class="contact-container">
+    <div class="contact-form">
+      
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email..">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div class="contact-info-container">
+      <div class="contact-info">
+        <div class="address">
+          <h3>Address</h3>
+          <p><img src="home.png" alt="Location Icon">123 Green Street, City, Country</p>
+        </div>
+
+        <div class="phone">
+          <h3>Phone</h3>
+          <p><img src="phone-call.png" alt="Phone Icon">+1 123-456-7890</p>
+        </div>
+
+        <div class="email">
+          <h3>Email</h3>
+          <p><img src="gmail.png" alt="Email Icon">info@example.com</p>
+        </div>
+
+        <div class="social">
+          <h3>Follow us</h3>
+          <p>
+              <a href="#"><img src="facebook-logo-facebook-icon-transparent-free-png.png" alt="Facebook Icon"></a>
+              <a href="#"><img src="twitter.png" alt="Twitter Icon"></a>
+              <a href="#"><img src="instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png" alt="Instagram Icon"></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
